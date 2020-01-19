@@ -51,7 +51,6 @@ public class Driver {
         if (m.find()) {
             return Double.parseDouble(" " + str.substring(m.start() + 8, m.end()));
         } else {
-            System.out.println("this.executed");
             return -1;
         }
     }
